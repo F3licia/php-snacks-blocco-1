@@ -50,13 +50,13 @@ for ($i = 0; $i < count($posts); $i++) {
    
      $sinDate = $dates[$i];
      $value = $posts[$sinDate];
-     echo $sinDate;
+     echo $sinDate."<br>";
      for ($y = 0; $y < count($value); $y++) {
 
         $sinPost = $value[$y];
-        echo $sinPost["title"];
-        echo $sinPost["author"];
-        echo $sinPost["text"];
+        echo $sinPost["title"]."<br>";
+        echo $sinPost["author"]."<br>";
+        echo $sinPost["text"]."<br>";
 
 
     }
